@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">309</a>
+                <a class="navbar-brand" href="./../index.html">309</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">خانه</a>
+                            <a class="nav-link active" aria-current="page" href="./../index.html">خانه</a>
                         </li>
 
                         <li class="nav-item">
@@ -44,7 +44,7 @@
                         </li>
                     </ul>
 
-                    <a class="nav-link link-primary" href="#">ورود/عضویت</a>
+                    <a class="nav-link link-primary" href="./loginSignIn.html">ورود/عضویت</a>
                 </div>
             </div>
         </nav>
@@ -56,9 +56,9 @@
                 <div class="input-group has-validation">
                     <span class="input-group-text">@</span>
                     <div class="form-floating is-invalid">
-                        <input type="text" class="form-control is-invalid" id="floatingInputGroup2"
-                            placeholder="Username" required>
-                        <label for="floatingInputGroup2">نام کاربری</label>
+                        <input type="text" class="form-control is-invalid" id="username" placeholder="Username"
+                            required>
+                        <label for="username">نام کاربری</label>
                     </div>
                     <div class="invalid-feedback">
                         لطفا نام کاربری خود را وارد نمایید
@@ -68,11 +68,12 @@
                 <div class="input-group has-validation">
                     <span class="input-group-text">نام و نام خانوادگی</span>
                     <div class="form-floating is-invalid">
-                        <input type="text" class="form-control is-invalid" id="floatingInputGroup2"
-                            placeholder="Username" required>
-                        <label for="floatingInputGroup2">نام کاربری</label>
-                        <input type="text" class="form-control is-invalid form-control" aria-label="First name">
-                        <input type="text" class="form-control is-invalid form-control" aria-label="Last name">
+                        <input type="text" class="form-control is-invalid" id="firstName" placeholder="firstName" required>
+                        <label for="firstName">نام</label>
+                    </div>
+                    <div class="form-floating is-invalid">
+                        <input type="text" class="form-control is-invalid" id="lastName" placeholder="lastName" required>
+                        <label for="lastName">نام خانوادگی</label>
                     </div>
                     <div class="invalid-feedback">
                         نام و نام خانوادگی خود را کامل وارد نمایید
